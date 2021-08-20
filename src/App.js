@@ -1,7 +1,8 @@
-import "./App.css";
-import { ThemeProvider } from "@material-ui/core";
+import { ThemeProvider,Grid } from "@material-ui/core";
+import theme from "./theme/theme";
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
+import JobCard from './components/Job/JobCard';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Grid container justify="center">
         <Grid item xs={10}>
           <SearchBar />
+          <JobCard/>
         </Grid>
       </Grid>
     </ThemeProvider>

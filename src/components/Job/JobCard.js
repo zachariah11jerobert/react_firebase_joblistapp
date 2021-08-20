@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from "@material-ui/core";
+import { Box, Grid, Typography,Button } from "@material-ui/core";
 
 const skills = ["Javascript", "React.js", "Node.js"];
 
@@ -24,7 +24,7 @@ export default (props) => {
             </Typography>
           </Grid>
           <Grid item>
-            <Box>
+            <Box mt={2}>
               <Button variant="outlined">Check</Button>
             </Box>
           </Grid>
